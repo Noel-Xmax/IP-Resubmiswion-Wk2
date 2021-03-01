@@ -1,0 +1,26 @@
+
+body{
+  background-color:peru;
+  font-size: medium;
+  font-weight: 200;
+  color: antiquewhite;
+  text-align: center;
+  
+}
+ul{
+  float: centre;
+  list-style:circle;
+  list-style: none;
+}
+ol{
+  float: centre;
+  list-style:circle;
+  list-style: none;
+}
+h3{
+text-decoration: underline;
+}
+*{
+  box-sizing: border-box;
+  position: static;
+}
