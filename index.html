@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
    <title>Akan Names</title>
@@ -14,18 +13,18 @@
           <p>Akan names of Ghanian Origin. Filling the attached form helps derive your Akun Name.That is your date of birth and Gender</p>
         </div>
         <p> Here are the list of names per Gender;</p>
-          <ol>
-            <h4>Male Names</h4>
-          <ol>
-            <li><em>Sunday: Kwasi</em></li>
-            <li><em>Monday: Kwadwo</em></li>
-            <li><em>Tuesday: Kwabena</em></li>
-            <li><em>Wednesday: Kwaku</em></li>
-            <li><em>Thursday:  Yaw</em></li>
-            <li><em>Friday: Kofi</em></li>
-            <li><em>Saturday: Kwame</em></li>
-          </ol>
-          <h4>Female Names</h4>
+        <ol>
+          <h4>Male Names</h4>
+        <ol>
+          <li><em>Sunday: Kwasi</em></li>
+          <li><em>Monday: Kwadwo</em></li>
+          <li><em>Tuesday: Kwabena</em></li>
+          <li><em>Wednesday: Kwaku</em></li>
+          <li><em>Thursday:  Yaw</em></li>
+          <li><em>Friday: Kofi</em></li>
+          <li><em>Saturday: Kwame</em></li>
+        </ol>
+        <h4>Female Names</h4>
             <ul>
               <li>Sunday: Akosua</li>
               <li><em>Monday: Adwoa</em></li>
@@ -35,8 +34,9 @@
               <li><em>Friday: Afua</em></li>
               <li><em>Saturday: Ama</em></li>
             </ul>
+            
             <br>
-        <form name="myForm" class="details" onsubmit="validate();">
+        <form name="myForm" class="details" method="GET">
           <div>
             <label for="number">Year:</label>
             <input type="number" id="year" placeholder="YOB" name="year" required>
@@ -62,7 +62,7 @@
               </label>
             </div>
           </div><br>
-          <button type="submit" onclick= "findName()"> Submit </button>
+          <button type="submit" onclick="findName()" >Submit</button>
           <br>
         </form>
         <p id="results"> </p>
